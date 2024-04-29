@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(background.jpg);
+}
+
+.headding {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    max-width: 540px;
+    margin: 10px auto 30px;
+    padding: 10px 30px 20px;
+    /* background-color: rgb(164, 170, 247); */
+    border-radius: 20px;
+}
+
+.searchcity {
+    margin: 10px auto 30px;
+    max-width: 540px;
+    background-color: rgb(110, 121, 226);
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    flex: 1;
+    height: 50px;
+    padding-left: 25px;
+    font-size: 25px;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    /* background-color: transparent */
+}
+
+button {
+    margin-left: 10px;
+    width: 70px;
+    display: inline;
+    border: none;
+    background-color: rgb(125, 94, 87);
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: rgb(70, 208, 100);
+}
+
+.location {
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.location .date {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.temp {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.other {
+    margin-top: 30px;
+    ;
+    display: flex;
+    color: white;
+}
+
+.humidity {
+    margin-left: 430px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.windspeed {
+    margin-left: 120px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    color: white;
+    margin-top: 50px;
+    margin-left: 650px;
+    display: none;
+}
